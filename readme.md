@@ -1,8 +1,19 @@
 
-##What is this data app about?
+## Что делает приложение [Relationship Dashboard](https://eugenetersky-relationshipdash-stream-4baynf.streamlitapp.com/)?
 
-This app data analyses Telegram chat history between two users starting from the 1st of January 2022.
+Приложение анализирует переписку в Телеграме между двумя пользователями за текущий год.
 
-##How do I use it?
+## Какие метрики анализируются?
 
-Just download your chat history in json format and upload it on the front page of the app.
+1) Общий тренд по количеству сообщений в месяц
+2) Кто кому чаще пишет
+3) Среднее количество сообщений в день по месяцами
+4) Активность переписки по дням недели
+
+## Как скачать историю переписки
+
+Для этого нужно иметь на компьютере приложение Telegram. Вот здесь более подробно: https://www.techmesto.com/backup-or-export-telegram-chats/
+
+## Безопасно ли загружать личную переписку в приложение?
+
+Приложение никаким образом не трогает сам текст переписки: см. исходник.
