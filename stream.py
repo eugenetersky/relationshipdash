@@ -1,12 +1,8 @@
-import streamlit as st
 import pandas as pd
 import numpy as np
 import sqlite3
 import json
 import streamlit as st
-
-import altair as alt
-
 from bokeh.plotting import figure
 
 sql_freq = '''
@@ -108,9 +104,3 @@ if (uploaded_file is not None):
      p.xgrid.grid_line_color = None
      p.y_range.start = 0
      st.bokeh_chart(p)
-     #average per weekday pie chart
-     altchart = alt.Chart(weekday).mark_arc().encode(theta=alt.Theta(field='count',
-                    type='quantitative'),
-                    color=alt.Color(field='day_of_week',
-                    type='nominal'),)
-     st.altair_chart(altchart, use_container_width=True)
