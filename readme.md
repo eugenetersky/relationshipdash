@@ -1,5 +1,5 @@
 
-## Что делает это приложение?
+## Что делает приложение [Relationship Dashboard](https://eugenetersky-relationshipdash-stream-4baynf.streamlitapp.com/)?
 
 Приложение анализирует переписку в Телеграме между двумя пользователями за текущий год.
 
